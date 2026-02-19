@@ -9,7 +9,6 @@
  */
 
 import type * as recommendations from "../recommendations.js";
-import type * as test from "../test.js";
 import type * as users from "../users.js";
 
 import type {
@@ -20,7 +19,6 @@ import type {
 
 declare const fullApi: ApiFromModules<{
   recommendations: typeof recommendations;
-  test: typeof test;
   users: typeof users;
 }>;
 
